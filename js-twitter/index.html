@@ -20,23 +20,22 @@
       <h1>Basic Tweet Page with JavaScript</h1>
       <div class="row">
         <div class="col-md-3 col-12">
-          <form>
+          <form id="form">
             <div class="form-group">
               <label for="exampleInputEmail1">Tweet</label>
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
+              <textarea
+                class="form-control tweet"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
         <div class="col-md-9 col-12">
-          <p>Your Tweet</p>
+          <p>My Tweets</p>
           <hr />
-          <div class="tweet"></div>
+          <div class="tweet-list"></div>
         </div>
       </div>
     </div>
